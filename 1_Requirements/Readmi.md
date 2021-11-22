@@ -96,17 +96,43 @@ Threats:
 
 WHAT:
 
-Clinic Management is a comprehensive tool to effectively manage clinics and hospitals. It provides an overview of entire clinic operations in Real-Time like list number of patients,patients history,phone number, patient ID,time reservasion.The system was focused on moving the manual system into computerized system that update and also accommodates the process of viewing and storing information about the patient  that is also responsible for records. The system also deal with searching capability procedure of recorded patient which helps the user for easy retrieval of the records.
+Hospital management system is a computer system that helps manage the information related to health care and aids in the job completion of health care providers effectively.
 
 WHY:
 
-The increase in private and specialty clinics/hospitals has driven the indispensable need of clinic management system to rationalize private physician consultation benefits. It leverages more professional practices on patient history, appointments, and completely reduce the medication error, improve business performance and thereby the revenue bottom line.
+HMS was introduced to solve the complications coming from managing all the paper works of every patient associated with the various departments of hospitalization with confidentiality. HMS provides the ability to manage all the paperwork in one place, reducing the work of staff in arranging and analyzing the paperwork of the patients.
 
 WHERE:
 
+This systems useful in healthcare like hospitals/clinics.
+
+WHEN:
+
+A clinic management system is used to manage the patients, the appointments, the doctors' schedules, manage the inventory, etc. It makes the otherwise difficult task of managing a clinic.
+
+How:
+
+Clinic management system improves the general efficiency of the organization by automating the entire system.The software helps in streamlining every element of a healthcare center. Some of which includes recordkeeping, printing out prescriptions,scheduling patients' appointments.
 
 
-Detail requirements
+Detail requirements:
+
+
+|High Level Requirements|Low Level Requirements|
+|:----------------------:|:------------------------|
+|There are a lot of software requirements specifications included in the non-functional requirements of the Clinic Management System, which contains various process, namely Security, Performance, Maintainability, and Reliability.|  There are a lot of software requirements specifications included in the functional requirements of the Clinic Management System, which contains various process, namely Registration, Check out, Report Generation, and Database.|
+|  Security:   1.Logon ID: Any users who make use of the system need to hold a Logon ID and password. 2.Modifications: Any modifications like insert, delete, update, etc. for the databasecan be synchronized quickly and executed only by the ward administrator. 3.Front Desk Staff Rights: The staff in the front desk can view any data in the Clinic Management system, add new patients record to the CMS but they don't have any rights alter any data in it. 4.Administrator rights: The administrator can view as well as alter any information in the Hospital Management System.|   Registration Process of SRS (Software Requirements Specification): 1.Adding Patients: The Clinic Management enables the staff in the front desk to include new patients to the system. 2.Assigning an ID to the patients: The CMS enables the staff in the front desk to provide a unique ID for each patient and then add them to the record sheet of the patient. The patients can utilize the ID throughout their hospital stay.|
+|  Performance:  1.Response Time: The system provides acknowledgment in just one second once the 'patient's information is checked. 2.Capacity: The system needs to support at least 1000 people at once. 3.User-Interface: The user interface acknowledges within five seconds. 4.Conformity: The system needs to ensure that the guidelines of the Microsoft accessibilities are followed.|Check Out of SRS:  1.Deleting Patient ID: The staff in the administration section of the ward can delete the patient ID from the system when the patient's checkout from the hospital.|
+|  Maintainability: 1.Back-Up: The system offers the efficiency for data back up. 2.Errors: The system will track every mistake as well as keep a log of it. |  Report Generation of SRS: 1.Information of the Patient: The Clinic Management System generates a report on every patient regarding various information like patients name, Phone number, patientreservation.|
+|  Reliability: 1.Availability: The system is available all the time. |  Database of SRS: 1.Mandatory Patient Information: Every patient has some necessary data like phone number, their first and last name, personal health number, postal code, country, address, city, 'patient's ID number. 2.Updating information of the Patient: The clinic management system enables users to update the information of the patient as described in the mandatory information included.|
+
+
+
+
+
+
+
+
 
 
 
