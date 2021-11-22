@@ -1,15 +1,15 @@
-Requirements
+## Requirements
 
-Introduction
+## Introduction
 
 The project clinic management is a software developed to simplify the communication process between the doctor and the receptionist. The software would be operated by two admins one is doctor and the other is receptionist. Receptionist would be responsible for assigning patient ID to the patient visiting the clinic and save it in the database along with their details. These token numbers along with respective patient details are sent to doctor.In this system, where everything needs to do be done efficiently and effectively the existences of Clinic Management System(CMS) become neccessary. The used of CMS can enhance the services and also the work flow of all activity that happends in hospitals where it helps in reducing the workload of medical staff, the number of man power needed and it also make hospitals management become more manageable and easier to control.
 
-Research
+## Research
 
 Nowadays, most of the Businesses  are still using an old system of recording, which is done manually. The stuff/assistant are still experiencing an old tradition of recording, where it consumes more space, time, paper and other problem redundancy to find/store the patient's information.
 Nowadays, the current Clinic Management System that are available had not been widely used. This is because the process of task that occurred in hospitals is quite complex compared to other organization.Manual Recording System, even in today's world can still provide an effective and useful way to record and deliver an efficient information system. Employees will have to do it manually and takes time to properly arrange the records.The Clinic Management System (CMS) is designed and developed to guarantee the removal of various problem or to eliminate the problem of redundant that was increase the inefficiencies in data to be retrieve. These keeping of records were caused by the data, under the manual recording system was entered into books and paper files and was later stored in overcrowded storage rooms that may be made the retrieval of records close to impossible due to the manual system.
 
-Features and Cost and Timeline
+## Features and Cost and Timeline
 
          The features of this system, the user can perform the CRUD operations to it. Like, add patient details by entering his/her name, phone number, patient ID,time reservasion. The user can also view all the available patient records. Such as details and search a patient by its name, age, time reservasion. Besides, the user can edit information as well as remove a patient’s whole date or only his/her name, phone number,time reservasion.This system will also ensures the preservation of personal records and ensure the accessibility only by the authorized personnel.To have a good and efficient records management system should be able to incorporate specific aspects of the systems mentioned above in order to provide and efficient means of records storage and management.
          
@@ -22,11 +22,11 @@ Reducing errors:
 our software will provide proper validation techniques thet will collectvely reduce errors done when recording data.
 
          
-Defining Our System
+## Defining Our System
          
          The Clinic Management System is divided into two, where the admin and user can be login separately. The Admin is the one that can add, delete and change about the user's information and also about the patient's information. The user, unlike admin is only responsible for keeping/recording about the patient's information. The Clinic Management System can view the master list of all the patient's details.The Clinic Management System (CMS) will help the clinic to keep and managed the personal records of the patient. Recording patient information is one of the important aspect of dental institution. There are Dental Clinic that records manually that's why it is very time consuming and more paper works. Clinic Management System is design to help the employee in recording the patient's record and will change the manual record into computerized records.
          
-Project Goals and Objectives
+## Project Goals and Objectives
          
 Objective:
 
@@ -37,9 +37,9 @@ Project Scope
 Clinic Management System was primarily developed to improve the clinic's system for storing data or information about the patient.
 The system was focused on moving the manual system into computerized system that update and also accommodates the process of viewing and storing information about the patient  that is also responsible for records. The system also deal with searching capability procedure of recorded patient which helps the user for easy retrieval of the records.
 
-Project detail
+## Project detail
 
-In Admin mode
+## In Admin mode
 
 The system asks for password,the defauld password is 1234.The system allows 3 trails for the passwords entry,if the entered password was incorrect for consecutive times,the system shall close,After login in the admin mode,the system shall provied the following features:
 
@@ -59,7 +59,7 @@ By default there are 5 available slots,2pm to 2.30pm,3pm to 3.30pm, 4pm to 4.30p
 
 The admin can cancel a reservation by entering the patient ID. This reservation shall be shown again in the avaliable slots window.
 
-In the user mode
+## In the user mode
 
 There is no password. The syatem allows the following features:
 1. View patient record.
@@ -67,7 +67,7 @@ By, entering the patient ID, the system shall show the basic information for the
 2. view today's reservation.
 In this view, the system shall print all reservation with the patient ID attached to each reservation slot.
 
-SWOT ANALYSIS
+## SWOT ANALYSIS
 
 Strength:
 1.Special expertise
@@ -94,7 +94,7 @@ Threats:
 3.Adverse demograghic changes
 4.Economic slowdowns
 
-4W's and 1'H
+## 4W's and 1'H
 
 WHAT:
 
@@ -117,7 +117,7 @@ How:
 Clinic management system improves the general efficiency of the organization by automating the entire system.The software helps in streamlining every element of a healthcare center. Some of which includes recordkeeping, printing out prescriptions,scheduling patients' appointments.
 
 
-Detail requirements:
+## Detail requirements:
 
 
 |High Level Requirements|Low Level Requirements|
