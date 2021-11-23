@@ -7,6 +7,13 @@ BUILD = build
 # All source code files
 SRC = project_main.c\
 src/clinic main.c
+OBJ=clinic main.o
+INC=inc
+CFLAGS=I$(INC)
+a.out:$(OBJ)
+gcc $ -I$(INC)-o $@
+%.o:src%
+gcc $^ -I$(INC)-c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
