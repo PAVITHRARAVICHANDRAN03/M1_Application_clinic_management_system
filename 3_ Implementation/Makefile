@@ -22,9 +22,8 @@ clear:
 #Target_name
 
 PROJ_NAME =	Bank
-SRC	= BankOperations.c projectmain.c
-SRC = project_main.c\
-src/clinic main.c
+SRC	= clinic_main.c Clinic_Management_System.c
+
 ifdef OS
 	RM=del /q
    	FixPath=$(subst /,\,$1)
