@@ -25,16 +25,12 @@ Folder               | Description
 
 ## Challenges Faced and How Was It Overcome
 
-1.GCC erorr in windows and linux: installed the gcc msys64 mingw64 properly.
+1.GCC erorr in windows and linux
 
-2.Generation of makefile: To overcome this problem research on makefiles was done.
+2.Generation of makefile
 
-3.Unity testing: Initially a few testcases did not pass, to overcome this issue debugging of program was performed.
+3.Unity testing
 
-## Learning Resources
+4.Debugging setup
 
-1.[gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
 
-2.[github workflow](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
-
-3.[structure in c](https://www.studytonight.com/c/structures-in-c.php/)
