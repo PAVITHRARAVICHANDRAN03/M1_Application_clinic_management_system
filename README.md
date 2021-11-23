@@ -23,8 +23,7 @@ Folder               | Description
 * [Codacy](https://www.codacy.com/)
 
 
-## Challenges Faced and How Was It Overcome
-
+## Challenges Faced 
 1.GCC erorr in windows and linux
 
 2.Generation of makefile
