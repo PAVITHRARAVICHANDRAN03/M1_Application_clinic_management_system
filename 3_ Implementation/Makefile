@@ -5,7 +5,7 @@ PROJECT_NAME = Clinic Management System
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
+SRC = clinic_management_system.c\
 src/clinic main.c
 OBJ = clinic main.o
 INC = inc
@@ -21,8 +21,8 @@ clear:
    
 #Target_name
 
-PROJ_NAME =	Bank
-SRC	= clinic_main.c Clinic_Management_System.c
+PROJ_NAME =	clinic management system
+SRC	= clinic_main.c clinic_management_system.c
 
 ifdef OS
 	RM=del /q
