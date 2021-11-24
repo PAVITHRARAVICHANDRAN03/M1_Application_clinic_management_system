@@ -1,8 +1,8 @@
 
 ## Design diagram
-
-![Low leavel diagram](https://user-images.githubusercontent.com/94224532/143271995-e00fd565-4a32-4067-92b0-50a216a6b8de.png)
-![patient record drawio](https://user-images.githubusercontent.com/94224532/143270840-fa37d5ed-df87-4549-b912-c994677b8300.png)
+|clinic management system diagram|patient record diagram
+--------------| ----------------------------------------------
+|![Low leavel diagram](https://user-images.githubusercontent.com/94224532/143271995-e00fd565-4a32-4067-92b0-50a216a6b8de.png)|![patient record drawio](https://user-images.githubusercontent.com/94224532/143270840-fa37d5ed-df87-4549-b912-c994677b8300.png)|
 
 
 
