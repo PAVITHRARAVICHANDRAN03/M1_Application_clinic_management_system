@@ -2,7 +2,7 @@
 PROJECT_NAME = Clinic Management System
 # All source code files
 SRC = clinic_management_system.c\
-src/clinic.c
+src/clinic_main.c
 INC = inc
 all.exe : $(SRC) 
 	gcc $^ -I$(INC) -o $@
