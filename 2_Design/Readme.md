@@ -14,6 +14,7 @@
 ## High Level Design
 
 ![uml clinic diagram](https://user-images.githubusercontent.com/94224532/142773633-c4dff2a3-d000-4fb4-ab4e-259bc07da457.png)
+![uml clinic diagram](https://user-images.githubusercontent.com/94224532/143270605-792f5d2a-70b2-497c-a4ff-feff2d5b5fd1.png)
 
 
 
