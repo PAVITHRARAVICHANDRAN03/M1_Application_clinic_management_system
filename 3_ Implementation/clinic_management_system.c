@@ -116,7 +116,7 @@ void Time_Reservation()
 	   printf("This ID is not exist, please sign up first\n");
 		return;
 }
-void Cancel_Res(u32 ID)
+void Cancel_Reservation(u32 ID)
 {	
 	u8 y=0;
 	for(i=0;i<5;i++)
@@ -156,7 +156,7 @@ void Print_List(u32 id)
    printf("This ID is not exist");
    return;
 }
-void Print_Res()
+void Print_Reservation()
 {
 	for(i=0;i<5;i++)
 	{
