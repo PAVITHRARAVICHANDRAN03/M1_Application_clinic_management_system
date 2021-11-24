@@ -1,1 +1,72 @@
+#include "unity.h"
+#include <clinic_header.h>
 
+/* Modify these two lines according to the project */
+#include <header.h>
+#include <STD_Types.h>
+#define PROJECT_NAME    "Clinic management system"
+
+/* Prototypes for all the test functions */
+void Add_patient(u8 name[],u32 age,u8 gender[], u32 id);
+void Edit_List(u32 id);
+void DeleteNode(u32 data);
+void Time_Reservation() ;
+void Cancel_Res(u32 ID);
+void Print_List(u32 id);
+void Print_Res();
+
+/* Required by the unity test framework */
+void setUp(){}
+/* Required by the unity test framework */
+void tearDown(){}
+
+/* Start of the application test */
+int main()
+{
+/* Initiate the Unity Test Framework */
+  UNITY_BEGIN();
+
+/* Run Test functions */
+  RUN_TEST(Edit_List);
+  RUN_TEST(Time_Reservation);
+  RUN_TEST(Cancel_Res);
+  RUN_TEST(Print_List);
+  RUN_TEST(Print_Res);
+  RUN_TEST(DeleteNode);
+
+  /* Close the Unity Test Framework */
+  return UNITY_END();
+}
+
+/* Write all the test functions */ 
+void test_add(void) {
+  TEST_ASSERT_EQUAL(30, add(10, 20));
+  TEST_ASSERT_EQUAL(-10, add(10, -20));
+  TEST_ASSERT_EQUAL(-30, add(-10, -20));
+  TEST_ASSERT_EQUAL(10, add(-10, 20));
+}
+void test_add_testcase2(void) {
+ 
+  /* Dummy fail*/
+  // TEST_ASSERT_EQUAL(1500, add(750, 7500));
+}
+void test_subtract(void) {
+  TEST_ASSERT_EQUAL(-3, subtract(0, 3));
+  
+  /* Dummy fail*/
+  // TEST_ASSERT_EQUAL(1, subtract(1000, 900));
+}
+
+void test_multiply(void) {
+  TEST_ASSERT_EQUAL(0, multiply(1, 0));
+  
+  /* Dummy fail*/
+  // TEST_ASSERT_EQUAL(2, multiply(2, 5));
+}
+
+void test_divide(void) {
+  TEST_ASSERT_EQUAL(0, divide(1, 0));
+  
+  /* Dummy fail*/
+  // TEST_ASSERT_EQUAL(3, divide(2, 2));
+}
