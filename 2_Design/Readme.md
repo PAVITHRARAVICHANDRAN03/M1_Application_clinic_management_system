@@ -1,19 +1,23 @@
 
 ## Design diagram
 
+![Low leavel diagram](https://user-images.githubusercontent.com/94224532/143271995-e00fd565-4a32-4067-92b0-50a216a6b8de.png)
+![patient record drawio](https://user-images.githubusercontent.com/94224532/143270840-fa37d5ed-df87-4549-b912-c994677b8300.png)
 
-![Low leavel diagram](https://user-images.githubusercontent.com/94224532/142773617-b401725c-e074-4122-a68e-ae66d8933f0a.png)
+
+
 
 
 
 ## Low Level Design
 
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/94224532/142773699-f2a35aa8-4f9f-465d-af70-a65df714c4b4.png)
+
+![flow drawio](https://user-images.githubusercontent.com/94224532/143270929-0775634c-db62-41e4-ba69-b93caaa5531a.png)
 
 
 ## High Level Design
 
-![uml clinic diagram](https://user-images.githubusercontent.com/94224532/142773633-c4dff2a3-d000-4fb4-ab4e-259bc07da457.png)
+
 ![uml clinic diagram](https://user-images.githubusercontent.com/94224532/143270605-792f5d2a-70b2-497c-a4ff-feff2d5b5fd1.png)
 
 
