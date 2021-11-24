@@ -68,7 +68,7 @@ void main(void)
 					 break;
 			case 4 : printf("Enter Your ID: ");
 					 scanf("%d",&id);
-			         Cancel_Res(id);
+			         Cancel_Reservation(id);
 					 break;
 			default: printf("Invalid Choice please try again\n"); break;
 		}
