@@ -12,6 +12,6 @@ void Add_patient(u8 name[],u32 age,u8 gender[], u32 id);
 void Edit_List(u32 id);
 void DeleteNode(u32 data);
 void Time_Reservation() ;
-void Cancel_Res(u32 ID);
+void Cancel_Reservation(u32 ID);
 void Print_List(u32 id);
-void Print_Res();
+void Print_Reservation();
