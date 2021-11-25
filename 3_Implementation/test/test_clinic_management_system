@@ -1,50 +1,4 @@
-#include "unity.h"
-#include <header.h>
 
-/* Modify these two lines according to the project */
-#include <header.h>
-#include <STD_Types.h>
-#define PROJECT_NAME    "Clinic management system"
-
-/* Prototypes for all the test functions */
-void Add_patient(u8 name[],u32 age,u8 gender[], u32 id);
-void Edit_List(u32 id);
-void DeleteNode(u32 data);
-void Time_Reservation() ;
-void Cancel_Reservation(u32 ID);
-void Print_List(u32 id);
-void Print_Reservation();
-
-/* Required by the unity test framework */
-void setUp(){}
-/* Required by the unity test framework */
-void tearDown(){}
-
-/* Start of the application test */
-int main()
-{
-/* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
-
-/* Run Test functions */
-  RUN_TEST(Edit_List);
-  RUN_TEST(Time_Reservation);
-  RUN_TEST(Cancel_Reservation);
-  RUN_TEST(Print_List);
-  RUN_TEST(Print_Reservation);
-  RUN_TEST(DeleteNode);
-
-  /* Close the Unity Test Framework */
-  return UNITY_END();
-}
-
-/* Write all the test functions */ 
-void Edit_List(void) {
-  TEST_ASSERT_EQUAL(30, add(10, 20));
-  TEST_ASSERT_EQUAL(-10, add(10, -20));
-  TEST_ASSERT_EQUAL(-30, add(-10, -20));
-  TEST_ASSERT_EQUAL(10, add(-10, 20));
-}
 #include "unity.h"
 #include <clinic.h>
 
@@ -60,6 +14,7 @@ void test_search(void);
 void test_edit(void);
 void test_delete(void);
 void test_show(void);
+void test_write(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -79,15 +34,13 @@ int main()
   RUN_TEST(test_search);
   RUN_TEST(test_delete);
   RUN_TEST(test_show);
-
+  RUN_TEST(test_write);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
 /* Write all the test functions */ 
 void test_add(void) {
-  void add()
-{
     printf("\n\n");
     printf("Already data inputed on the database =%d\n\n",num);//how many inputs
     printf("How many entry do you want to add=\n");
@@ -118,7 +71,9 @@ void test_add(void) {
         a++;
         num++;
     }
-}void del()
+}
+void test_delete(void);
+
 {
     int f,h;
     printf("Enter the serial number of the patient that you want to delete=");
@@ -168,7 +123,7 @@ void test_add(void) {
         printf("\n\nInvalid Serial number\n");
 
 }
-void read()
+void test_read(void)
 {
     FILE *fp = fopen("patient.txt","r");
     if(fp == NULL)
@@ -182,7 +137,7 @@ void read()
    TEST_ASSERT_EQUAL( num = fread(x, sizeof(struct ad),100, fp));
     fclose(fp);
 }
-void write()
+void test_write(void)
 {
     FILE *fp = fopen("patient.txt","w");
     if(fp == NULL)
@@ -194,29 +149,6 @@ void write()
 
     fclose(fp);
 }
-void DeleteNode(void) {
- 
-  /* Dummy fail*/
-  // TEST_ASSERT_EQUAL(1500, add(750, 7500));
-}
-void Cancel_Reservation(void) {
-  TEST_ASSERT_EQUAL(-3, subtract(0, 3));
-  
-  /* Dummy fail*/
-  // TEST_ASSERT_EQUAL(1, subtract(1000, 900));
-}
 
-void Time_Reservation(void) {
-  TEST_ASSERT_EQUAL(0, multiply(1, 0));
-  
-  /* Dummy fail*/
-  // TEST_ASSERT_EQUAL(2, multiply(2, 5));
-}
-void Print_Reservation (void) {
-  TEST_ASSERT_EQUAL(0, multiply(1, 0));
-  
-  /* Dummy fail*/
-  // TEST_ASSERT_EQUAL(2, multiply(2, 5));
-}
 
 
