@@ -1,4 +1,4 @@
-name: Linux C/C++ CI
+
 name: Code Quality - Static Code - Cppcheck
 on:
   push:
