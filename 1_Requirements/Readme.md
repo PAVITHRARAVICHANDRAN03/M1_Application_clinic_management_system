@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Clinic Record Management System with Source Code is a project that can manage the patient record within the clinic. The system can help you organize the patient details for assigning properly. The purpose of the system is to help and maintain the managing of patient record.
+The Clinic Management System with Source Code is a project that can manage the patient record within the clinic. The system can help you organize the patient details for assigning properly. The purpose of the system is to help and maintain the managing of patient record.
 
 ## Research
 
@@ -37,7 +37,7 @@ our software will provide proper validation techniques thet will collectvely red
          
 ## Defining Our System
 
-The Clinic Record Management System was develop in a simple console application, the system can openly-accessed without the help of any login information. The user can do a lot of task in the system in the system, he/she can add new patient record, view all patient record, edit current patient record, and search patient record. The system has the function that can enter a patient details, you are also allowed to update the current patient record or delete existing patient record. The inputted data are stored in the text extension file. The Clinic Record Management System was created in a basic coding structure of C to teach and help beginner to start their programming career. 
+The Clinic Management System was develop in a simple console application, the system can openly-accessed without the help of any login information. The user can do a lot of task in the system in the system, he/she can add new patient record, view all patient record, edit current patient record, and search patient record. The system has the function that can enter a patient details, you are also allowed to update the current patient record or delete existing patient record. The inputted data are stored in the text extension file. The Clinic Management System was created in a basic coding structure of C to teach and help beginner to start their programming career. 
  Clinic Management System is design to help the employee in recording the patient's record and will change the manual record into computerized records.
 
 ## SWOT ANALYSIS
