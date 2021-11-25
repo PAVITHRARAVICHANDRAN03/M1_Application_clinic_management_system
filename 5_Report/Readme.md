@@ -173,6 +173,19 @@ Clinic management system improves the general efficiency of the organization by 
 ![uml clinic diagram](https://user-images.githubusercontent.com/94224532/143270605-792f5d2a-70b2-497c-a4ff-feff2d5b5fd1.png)
 
 
+# Implementation
+
+## Folder Structure
+
+| Folder | Description |
+| --- | --- |
+| inc | All header files |
+| src | Main source code for system |
+| test | All source code and data for testing purposes |
+| build | Build output |
+
+
+
 
 
 
