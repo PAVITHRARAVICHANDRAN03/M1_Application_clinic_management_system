@@ -20,3 +20,5 @@
 | TID 2 | System must display the result without error | SUCCESS | SUCCESS |  PASS|
 
 
+### OUTPUT
+![Capture](https://user-images.githubusercontent.com/94224532/143384653-943bcb1d-0e60-477b-bbad-6dc2e98ef0d8.PNG)
