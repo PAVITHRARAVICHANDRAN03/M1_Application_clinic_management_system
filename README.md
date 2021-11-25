@@ -16,11 +16,11 @@ Folder               | Description
 | Feature Id | Feature |
 | -----------|---------|
 |F_01| Add_patient  |
-|F_02| Edit_List  |
-|F_03| Time_Reservation |
-|F_04| Cancel_Reservation |
-
-
+|F_02| View_Information  |
+|F_03| Search_Information |
+|F_04| Edit_Information  |
+|F_05| Delete_Information  |
+|F_06| Exit_Information  |
 
 ## Integrated Tools to GitHub
 * [Codacy](https://www.codacy.com/)
