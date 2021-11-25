@@ -137,6 +137,20 @@ void test_read(void)
    TEST_ASSERT_EQUAL( num = fread(x, sizeof(struct ad),100, fp));
     fclose(fp);
 }
+void test_void view()
+{
+    for(i=0; i<num; i++)
+    {
+        printf("\n");
+        printf("Serial Number=%d\n",i);
+        printf("Name = ");
+        TEST_ASSERT_EQUAL(puts(x[i].name));
+        printf("Disease = ");
+        TEST_ASSERT_EQUAL(puts(x[i].disease));
+        printf("Cabin no = %d\nPhone number = 0%d\nAge=%d",x[i].cabin,x[i].phone,x[i].age);
+        printf("\n\n");
+    }
+}
 void test_write(void)
 {
     FILE *fp = fopen("patient.txt","w");
