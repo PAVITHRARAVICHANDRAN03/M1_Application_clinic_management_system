@@ -1,9 +1,14 @@
+ ### Project Name
 
-# M1_Application_clinic_management_system
+## M1_Application_clinic_management_system
+
+
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/844f2485d2cc4835abc26bc2f6024945)](https://www.codacy.com/gh/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system&amp;utm_campaign=Badge_Grade) 
 [![Unit Testing - Unity](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/unity.yml/badge.svg)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/unity.yml)
 [![Linux C/C++ CI](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/cppcheck.yml)
 [![C/C++ CI - Build Status](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/c_cpp.yml/badge.svg?branch=main)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/c_cpp.yml)
+
 ## Folder Structure
 Folder               | Description
 -------------------  | -----------------------------------------
@@ -80,30 +85,41 @@ The Clinic Management System was develop in a simple console application, the sy
 
 ## SWOT ANALYSIS
 
-Strength:
-1.Special expertise
-2.Reputation
-3.cost
-4.Technology advantages
+###  Strength:
 
-Weaknesses:
+#### 2. Special expertise
 
-1.Limited service lines
-2.Management of staff problems
-3.Marketing deficiencies
+#### 3. Reputation
 
-Opportunities:
+#### 4. cost
 
-1.New technology
-2.Lack of dominant Competition
-3.New markets or services
+#### 5. Technology advantages
 
-Threats:
+###  Weaknesses:
 
-1.New or increased competition
-2.Insurance plan changes
-3.Adverse demograghic changes
-4.Economic slowdowns
+#### 1. Limited service lines
+
+#### 2. Management of staff problems
+
+#### 3. Marketing deficiencies
+
+### Opportunities:
+
+#### 1. New technology
+
+#### 2. Lack of dominant Competition
+
+#### 3. New markets or services
+
+### Threats:
+
+####  1. New or increased competition
+
+#### 2. Insurance plan changes
+
+#### 3. Adverse demograghic changes
+
+#### 4. Economic slowdowns
 
 ## 4W's and 1'H
 
