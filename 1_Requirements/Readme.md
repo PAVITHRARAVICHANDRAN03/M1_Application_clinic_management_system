@@ -32,7 +32,8 @@ our software will provide proper validation techniques thet will collectvely red
 
 ## Timeline
 
-![time drawio](https://user-images.githubusercontent.com/94224532/143255251-8392da80-9ed6-4841-bb13-2f21077a0673.png)
+![time drawio](https://user-images.githubusercontent.com/94224532/143446900-b2ba7e8e-4f1b-4280-96e9-497edb19039a.png)
+
 
          
 ## Defining Our System
