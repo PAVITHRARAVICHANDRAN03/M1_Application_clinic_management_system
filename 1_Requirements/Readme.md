@@ -8,6 +8,7 @@ The Clinic Record Management System with Source Code is a project that can manag
 
 Nowadays, most of the Businesses  are still using an old system of recording, which is done manually. The stuff/assistant are still experiencing an old tradition of recording, where it consumes more space, time, paper and other problem redundancy to find/store the patient's information.
 Nowadays, the current Clinic Management System that are available had not been widely used. This is because the process of task that occurred in hospitals is quite complex compared to other organization.Manual Recording System, even in today's world can still provide an effective and useful way to record and deliver an efficient information system. Employees will have to do it manually and takes time to properly arrange the records.The Clinic record Management System  is designed and developed to guarantee the removal of various problem or to eliminate the problem of redundant that was increase the inefficiencies in data to be retrieve. These keeping of records were caused by the data, under the manual recording system was entered into books and paper files and was later stored in overcrowded storage rooms that may be made the retrieval of records close to impossible due to the manual system.
+https://silo.tips/download/clinic-management-system
 
 ## Features and Cost and Timeline
 
@@ -93,23 +94,23 @@ Clinic management system improves the general efficiency of the organization by 
 
 
 ## High Level Requirements
-| ID | Description | Status (Implemented/Future) |
+| ID | Description | Status (Implemented) |
 | --- | --- | --- |
-| HR01 |  | Implemented |
-| HR02 | User should be able to add new registrations | Implemented |
-| HR03 | System should recognize vaccinated patients | Implemented |
-| HR04 | OTP generated verification for secure registration | Future |
-| HR05 | System should recognize invalid credentials | Future |
+| HR01 |Enter patient's name | Implemented |
+| HR02 |Enter disease name| Implemented |
+| HR03 | Enter the age | Implemented |
+| HR04 | Enter cabin no | Implemented |
+| HR05 | Enter phone no | Implemented |
 
 
 ## Low Level Requirement
-| ID | Description | Status (Implemented/Future) |
+| ID | Description | Status (Implemented) |
 | --- | --- | --- |
-| LR01 | Only new user must be given an option to select vaccine type | Implemented |
-| LR02 | Total quantity of vaccines used must be shown by EOD | Implemented |
-| LR03 | Full list of patients vaccinated must be set as output | Implemented |
-| LR04 | Remaining and present stock of vaccines must be tracked | Future |
-| LR05 | Vaccine vials must be tracked for its use within a day | Future |
+| LR01 | Add Your Information | Implemented |
+| LR02 | View your Information  | Implemented |
+| LR03 | Search your Information  | Implemented |
+| LR04 |Edit your Information  | Implemented  |
+| LR05 |Delete your Information |Implemented |
 
 
 
