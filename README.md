@@ -2,7 +2,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/844f2485d2cc4835abc26bc2f6024945)](https://www.codacy.com/gh/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system&amp;utm_campaign=Badge_Grade) 
 [![Unit Testing - Unity](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/unity.yml/badge.svg)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/unity.yml)
 [![Linux C/C++ CI](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/cppcheck.yml)
-[![C/C++ CI - Build Status](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/c_cpp.yml/badge.svg?branch=main)](https://github.com/PAVITHRARAVICHANDRAN03/M1_Application_clinic_management_system/actions/workflows/c_cpp.yml)
+
 ## Folder Structure
 Folder               | Description
 -------------------  | -----------------------------------------
