@@ -1,20 +1,17 @@
 name: C/C++ CI - Build Status
-
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: gcc 3_Implementation.c -o 3_Implementation.exe
-    - name: Run
-      run: .\3_Implementation.exe
+    - name: make
+      run: make -C 3_Implementation/ all
 
