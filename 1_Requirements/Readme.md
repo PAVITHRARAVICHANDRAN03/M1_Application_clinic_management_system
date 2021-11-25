@@ -90,7 +90,7 @@ How:
 Clinic management system improves the general efficiency of the organization by automating the entire system.The software helps in streamlining every element of a healthcare center. Some of which includes recordkeeping, printing out prescriptions,scheduling patients' appointments.
 
 
-## Detail requirements:
+## Detail requirements
 
 
 ## High Level Requirements
