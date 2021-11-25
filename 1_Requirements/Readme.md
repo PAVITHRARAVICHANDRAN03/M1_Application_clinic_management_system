@@ -42,31 +42,41 @@ The Clinic Management System was develop in a simple console application, the sy
 
 ## SWOT ANALYSIS
 
-Strength:
-1.Special expertise
-2.Reputation
-3.cost
-4.Technology advantages
+###  Strength:
 
-Weaknesses:
+#### 2. Special expertise
 
-1.Limited service lines
-2.Management of staff problems
-3.Marketing deficiencies
+#### 3. Reputation
 
-Opportunities:
+#### 4. cost
 
-1.New technology
-2.Lack of dominant Competition
-3.New markets or services
+#### 5. Technology advantages
 
-Threats:
+###  Weaknesses:
 
-1.New or increased competition
-2.Insurance plan changes
-3.Adverse demograghic changes
-4.Economic slowdowns
+#### 1. Limited service lines
 
+#### 2. Management of staff problems
+
+#### 3. Marketing deficiencies
+
+### Opportunities:
+
+#### 1. New technology
+
+#### 2. Lack of dominant Competition
+
+#### 3. New markets or services
+
+### Threats:
+
+####  1. New or increased competition
+
+#### 2. Insurance plan changes
+
+#### 3. Adverse demograghic changes
+
+#### 4. Economic slowdowns
 ## 4W's and 1'H
 
 WHAT:
